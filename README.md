@@ -1,24 +1,58 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# アプリケーション名
+BOOK MANAGER
 
-Things you may want to cover:
+# アプリケーション概要
+購入した本（小説、漫画、雑誌等）を、写真付きで保存し。管理することで、同じものを購入することを防ぐことができる。
 
-* Ruby version
+# URL
 
-* System dependencies
+# テスト用アカウント
+・Basic認証パスワード：  
+・Basic認証ID：  
+・メールアドレス：  
+・パスワード：  
 
-* Configuration
+# 利用方法
+## 本を保存
+１、トップページのヘッダーからユーザー新規登録を行う  
+２、新規投稿ボタンから、本の内容（タイトル・作者・カテゴリ・画像）を入力し投稿する  
+３、本を管理する
 
-* Database creation
+# アプリケーションを作成した背景
+私が本を購入する際に、店頭で、すでに所有している本なのか判別できないことがありました。その迷いから「時間を浪費すること」や「誤って購入してしまうこと」が課題であると考えました。この課題を解決するために購入した本を確認することが出来れば、再購入を未然に防ぐことができるアプリケーションを開発しました。
 
-* Database initialization
+# 洗い出した用件
+[用件を定義したシート](https://docs.google.com/spreadsheets/d/1LseXqaeaxluiWYgpAx5xlDX5Ks5C9EGVIADdBL-wbrM/edit#gid=0)
 
-* How to run the test suite
+# 実装した機能についての画像やGIFおよびその説明
+~未実装のため、後日記載~
 
-* Services (job queues, cache servers, search engines, etc.)
+# 実装予定の機能
+現在、ユーザー新規登録機能を実装中。
+今後は新規投稿機能を実装予定。
 
-* Deployment instructions
+# データベース設計
+[![Image from Gyazo](https://i.gyazo.com/24be49535d4260e09760b14e42ed40f4.png)](https://gyazo.com/24be49535d4260e09760b14e42ed40f4)
 
-* ...
+# 画面遷移図
+[![Image from Gyazo](https://i.gyazo.com/d46eabb47d77474efc755ac63ad33056.png)](https://gyazo.com/d46eabb47d77474efc755ac63ad33056)
+
+# 開発環境
+・フロントエンド  
+・バックエンド  
+・インフラ  
+・テスト  
+・テキストエディタ  
+・タスク管理  
+
+# ローカルでの動作方法
+以下のコマンドを順に実行  
+% git clone https://github.com/takken08/book_manager  
+% cd book_manager  
+% bundle install  
+% yarn install  
+
+# 工夫したポイント
+誰もが操作できるように作業をシンプルにしたことです。他にも見やすく文字のサイズや画像を調整したことです。
